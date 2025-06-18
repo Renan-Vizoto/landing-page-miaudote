@@ -197,20 +197,26 @@ export default function Home() {
         >
           Quero conhecer o app
         </button>
-        <button
-          className="btn"
-          style={{
-            background: "#222",
-            color: "#FFD700",
-            fontWeight: 700,
-            width: 240,
-            fontSize: "1.15em",
-            border: "2px solid #FFD700",
-            boxShadow: "0 2px 12px #ffe5d9",
-          }}
+        <a
+          href="https://expo.dev/accounts/renanvizoto/projects/MiAuDote/builds/f076e642-95ea-419a-b74b-1c76f9282562"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Baixe agora
-        </button>
+          <button
+            className="btn"
+            style={{
+              background: "#222",
+              color: "#FFD700",
+              fontWeight: 700,
+              width: 240,
+              fontSize: "1.15em",
+              border: "2px solid #FFD700",
+              boxShadow: "0 2px 12px #ffe5d9",
+            }}
+          >
+            Baixe agora
+          </button>
+        </a>
         <div
           style={{
             marginTop: 24,
@@ -313,9 +319,6 @@ export default function Home() {
           >
             Seu navegador não suporta vídeo HTML5.
           </video>
-          <div style={{ color: "#888", fontSize: 14 }}>
-            Assista um caso real de adoção pelo MiAuDote
-          </div>
         </div>
       </section>
 
@@ -839,20 +842,26 @@ export default function Home() {
         >
           Baixe o MiAuDote e faça parte dessa transformação!
         </div>
-        <button
-          className="btn"
-          style={{
-            background: "#222",
-            color: "#FFD700",
-            fontWeight: 700,
-            fontSize: 20,
-            padding: "1.1em 2.8em",
-            border: "2px solid #FFD700",
-            boxShadow: "0 2px 12px #ffe5d9",
-          }}
+        <a
+          href="https://expo.dev/accounts/renanvizoto/projects/MiAuDote/builds/f076e642-95ea-419a-b74b-1c76f9282562"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          Baixe agora
-        </button>
+          <button
+            className="btn"
+            style={{
+              background: "#222",
+              color: "#FFD700",
+              fontWeight: 700,
+              fontSize: 20,
+              padding: "1.1em 2.8em",
+              border: "2px solid #FFD700",
+              boxShadow: "0 2px 12px #ffe5d9",
+            }}
+          >
+            Baixe agora
+          </button>
+        </a>
       </section>
 
       {/* FOOTER */}
