@@ -225,17 +225,6 @@ export default function Home() {
         >
           Faça parte dessa rede de amor e responsabilidade!
         </div>
-        <div
-          style={{
-            marginTop: 10,
-            fontSize: 15,
-            color: "#444",
-            fontWeight: 500,
-          }}
-        >
-          Lançamento em:{" "}
-          <span style={{ color: "#FFD700", fontWeight: 700 }}>{countdown}</span>
-        </div>
       </section>
 
       {/* TRUSTED BY */}
